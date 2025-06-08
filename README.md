@@ -1,5 +1,6 @@
 
 Project Overview
+
 This repository contains the Python code and associated resources for the final project report titled "A Simulation Model on Coil Production System for Inventory and Capacity Analysis Through Optimization Process" (ENG5814: Industry-Based Project B). The project, authored by Maisha Mashiata (Student ID: 35431180) under the supervision of Dr. Ts. Ho Kok Hoe, develops a simulation-based framework to optimize inventory management and production capacity in BlueScope's coil production system. The simulation replicates the multi-stage coil manufacturing process (slitting, cleaning, thickness reduction, quality control, and delivery) observed during an industrial visit to BlueScope on October 3, 2024. Using Visual Components for 3D simulation and Python for data analysis and optimization, the project addresses operational challenges such as inventory imbalances, capacity constraints, and bottlenecks.
 
 Features
@@ -11,19 +12,6 @@ Bottleneck Analysis: Computes bottleneck scores to pinpoint congestion points, p
 Hybrid Optimization: Implements a hybrid Differential Evolution (DE) and Sequential Least Squares Programming (SLSQP) approach to optimize processing times, achieving a 25% throughput efficiency gain.
 Visualization: Generates time-series plots, bar charts, heatmaps, pie charts, and scatter plots to visualize inventory, throughput, waste, and bottleneck metrics.
 
-Repository Structure
-├── data/
-│   ├── conveyor_metrics.csv        # Simulation output: coils entered, current, exited
-│   ├── time_metrics.csv           # Simulation output: processing times per conveyor
-├── scripts/
-│   ├── analysis.py                # Main script for inventory, capacity, lean, and bottleneck analysis
-│   ├── optimization.py            # Script for hybrid DE-SLSQP optimization
-│   ├── visualization.py           # Script for generating plots (time-series, heatmaps, etc.)
-├── README.md                      # This file
-├── requirements.txt               # Python dependencies
-└── docs/
-    ├── report.pdf                 # Full project report
-    ├── figures/                  # Generated visualization figures
 
 Prerequisites
 
@@ -36,18 +24,6 @@ numpy for numerical computations
 matplotlib and seaborn for visualization
 scipy for optimization (DE and SLSQP)
 
-
-
-Installation
-
-Clone the repository:git clone https://github.com/your-username/coil-production-simulation.git
-cd coil-production-simulation
-
-
-Install dependencies:pip install -r requirements.txt
-
-
-Ensure simulation output files (conveyor_metrics.csv, time_metrics.csv) are placed in the data/ directory.
 
 Usage
 
@@ -106,5 +82,5 @@ Tools: Visual Components for simulation, Python libraries (Pandas, NumPy, Matplo
 For questions or contributions, please contact:
 
 Author: Maisha Mashiata (Student ID: 35431180)
-Email: [Your Email Here]
+Email: [mmas0049@student.monash.edu]/Email: [mashiatamaisha@gmail.com]
 
