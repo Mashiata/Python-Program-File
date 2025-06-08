@@ -1,7 +1,7 @@
 
 Project Overview
 
-This repository contains the Python code and associated resources for the final project report titled "A Simulation Model on Coil Production System for Inventory and Capacity Analysis Through Optimization Process" (ENG5814: Industry-Based Project B). The project, authored by Maisha Mashiata (Student ID: 35431180) under the supervision of Dr. Ts. Ho Kok Hoe, develops a simulation-based framework to optimize inventory management and production capacity in BlueScope's coil production system. The simulation replicates the multi-stage coil manufacturing process (slitting, cleaning, thickness reduction, quality control, and delivery) observed during an industrial visit to BlueScope on October 3, 2024. Using Visual Components for 3D simulation and Python for data analysis and optimization, the project addresses operational challenges such as inventory imbalances, capacity constraints, and bottlenecks.
+This repository contains the Python code and associated resources for the final project report titled "A Simulation Model on Coil Production System for Inventory and Capacity Analysis Through Optimization Process" (ENG5814: Industry-Based Project B: Monash University Malaysia). The project, authored by Maisha Mashiata (Monash Student ID: 35431180) under the supervision of Dr. Ts. Ho Kok Hoe, develops a simulation-based framework to optimize inventory management and production capacity in BlueScope's coil production system. The simulation replicates the multi-stage coil manufacturing process (slitting, cleaning, thickness reduction, quality control, and delivery) observed during an industrial visit to BlueScope on October 3, 2024. Using Visual Components for 3D simulation and Python for data analysis and optimization, the project addresses operational challenges such as inventory imbalances, capacity constraints, and bottlenecks.
 
 Features
 
@@ -16,7 +16,7 @@ Visualization: Generates time-series plots, bar charts, heatmaps, pie charts, an
 Prerequisites
 
 Python: Version 3.8 or higher
-Dependencies: Listed in requirements.txt. Install using:pip install -r requirements.txt
+
 
 Required libraries include:
 pandas for data manipulation
@@ -27,20 +27,16 @@ scipy for optimization (DE and SLSQP)
 
 Usage
 
-Run Analysis:Execute the main analysis script to process simulation data and generate metrics for inventory, capacity, lean waste, and bottlenecks:
-python scripts/analysis.py
+Run Analysis:Execute the main analysis script to process simulation data and generate metrics for inventory, capacity, lean waste, and bottlenecks
 
-This script reads CSV files from data/ and outputs metrics to the console and saves visualizations to docs/figures/.
+This script reads CSV files from data and outputs metrics to the console and saves visualizations
 
 Run Optimization:Execute the optimization script to apply the hybrid DE-SLSQP approach, adjusting processing times to minimize bottlenecks while maintaining throughput:
-python scripts/optimization.py
 
-Outputs optimized processing times, inventory levels, and throughput metrics to the console and saves results to docs/figures/.
+Outputs optimized processing times, inventory levels, and throughput metrics to the console 
 
-Generate Visualizations:Run the visualization script to create plots (e.g., time-series, heatmaps, pie charts) for the report:
-python scripts/visualization.py
+Generate Visualizations:Run the visualization script to create plots (e.g., time-series, heatmaps, pie charts)
 
-Visualizations are saved in docs/figures/ for inclusion in the project report.
 
 
 Data
@@ -51,8 +47,8 @@ time_metrics.csv: Contains processing times (minimum, maximum, total) per convey
 
 
 Output Files:
-Visualization figures (e.g., inventory_over_time.png, throughput_heatmap.png) saved in docs/figures/.
-Analysis results printed to the console or saved as CSV files in data/.
+Visualization figures (e.g., inventory_over_time.png, throughput_heatmap.png) 
+Analysis results printed to the console 
 
 
 
@@ -75,12 +71,14 @@ Validate the model across different coil production facilities or material types
 Acknowledgments
 
 Supervisor: Dr. Ts. Ho Kok Hoe for guidance and support.
+
 BlueScope: For providing access to their coil production facility on October 3, 2024.
+
 Tools: Visual Components for simulation, Python libraries (Pandas, NumPy, Matplotlib, Seaborn, SciPy) for analysis and optimization.
 
 
 For questions or contributions, please contact:
 
-Author: Maisha Mashiata (Student ID: 35431180)
+Author: Maisha Mashiata (Monash Student ID: 35431180)
 Email: [mmas0049@student.monash.edu]/Email: [mashiatamaisha@gmail.com]
 
